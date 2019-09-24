@@ -406,7 +406,7 @@ Download Code and include files from com.haneet.horizontalswipecalendar
 
     </LinearLayout>
 </layout>
-
+```
 ```Java
 
 	  int CAL_TILL=1;// This number will add in year which tells system to fetch cal till that date
@@ -415,7 +415,7 @@ Download Code and include files from com.haneet.horizontalswipecalendar
 dateFillModel();
 hourFillModel(selectedDate, selectedHour);
 minFillModel(selectedMin);
-
+```
 
 These will populate the Dates
 
