@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff06537b</color>
+    <color name="colorPrimaryDark">#ff06537b</color>
+    <color name="colorAccent">#ff06537b</color>
+    <color name="blue_light">#ff1cbfdd</color>
+    <color name="user_name_blue">#ff06537b</color>
+    <color name="grey">#ffadadad</color>
+    <color name="grey_f2f2f2">#f2f2f2</color>
+    <color name="grey_444444">#444444</color>
+    <color name="green_circle">#ff86e0bd</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_blue">#ff06537b</color>
+    <color name="black_333333">#333333</color>
+    <color name="black_909090">#909090</color>
+    <color name="black_1b910b">#1b910b</color>
+    <color name="black_b7b7b7">#b7b7b7</color>
+    <color name="blue_395ca3">#395ca3</color>
+    <color name="blue_c6fff1">#c6fff1</color>
+    <color name="trans">#00FFFFFF</color>
+    <color name="text_color_title">#ff333333</color>
+    <color name="text_color_desc">#ff444444</color>
+
+    <color name="background_cell">#ffe5e5e5</color>
+    <color name="red">#F80808</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+  ~  Created by Surajit Deka on 25/6/19 12:38 PM
+  ~  Copyright (c) Letstrack 2019 . All rights reserved.
+  ~  Last modified 13/6/19 11:45 AM
+  ~
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ff395ca3" />
+
+    <corners
+        android:bottomLeftRadius="@dimen/_8sdp"
+        android:bottomRightRadius="@dimen/_8sdp"
+        android:topLeftRadius="@dimen/_8sdp"
+        android:topRightRadius="@dimen/_8sdp" />
+</shape>

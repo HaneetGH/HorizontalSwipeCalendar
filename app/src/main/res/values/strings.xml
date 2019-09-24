@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">HorizontalSwipeCalendar</string>
+    <string name="hey_you_are_back_nlogin_to_start">Hey you are back!\nLogin to start!</string>
+    <string name="mobile">Mobile</string>
+    <string name="forget_password"><u>Forget Password?</u></string>
+    <string name="type_to_search">Type to search...</string>
+    <string name="font_path_bold">font/U-Bold.ttf</string>
+    <string name="please_select_country">Please select country.</string>
+    <string name="enter_mobile_no">Please enter registered mobile no.</string>
+    <string name="enter_valid_mobile_no">Please enter valid mobile no.</string>
+    <string name="enter_password">Please enter password.</string>
+    <string name="enter_otp_sent_to_you">Enter OTP sent\nto you</string>
+    <string name="resend"><u>Resend</u></string>
+    <string name="done">Done</string>
+    <string name="signup">Signup</string>
+    //***type of ride****/
+    <string name="ride">Ride</string>
+    <string name="round_trip">Round Trip</string>
+    <string name="rental">Rental</string>
+    <string name="outstation">Outstation</string>
+    <string name="task">TASK</string>
+    <string name="add_note">Add Note</string>
+    <string name="five_min_less_title">Please keep stops to 5 minutesor less</string>
+    <string name="five_min_three_stop_text">You can add upto 3 stops; each limiting to5 minutes or less, otherwise your fare maychange.</string>
+    <string name="continue_text">Continue</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="set_a_new_password_and_login">Set a new password and login!</string>
+    <string name="please_enter_new_password">Please enter new password.</string>
+    <string name="minimum_eight_char_pass">Password should be contains at least 8 characters.</string>
+    <string name="enter_confirm_pass">Please enter confirm password.</string>
+    <string name="pass_should_be_same">New password and Confirm password should be same.</string>
+    <string name="enter_first_name">Please enter first name.</string>
+    <string name="enter_last_name">Please enter last name.</string>
+    <string name="sign_up_and_find_your_whide">Sign up and find your Whide!</string>
+    <string name="your_name">Your Name</string>
+    <string name="ok">OK</string>
+</resources>

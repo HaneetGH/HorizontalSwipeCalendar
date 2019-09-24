@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="model"
+            type="com.haneet.horizontalswipecalendar.model.calendar.DateModel" />
+
+        <variable
+            name="ifEven"
+            type="Boolean" />
+
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:id="@+id/layout"
+        android:background="@color/trans"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@color/trans"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_67sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight=".05"
+                android:background="@color/grey"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_weight=".9"
+
+                android:padding="@dimen/_1sdp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@color/trans"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+
+                    android:gravity="center"
+                    android:layout_gravity="center"
+
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:background="@{safeUnbox(model.setSelected)?@drawable/four_side_round_kinda_blue:safeUnbox(ifEven)?@drawable/four_side_grey:@drawable/four_side_white}"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@{safeUnbox(model.setSelected)?@color/white:@color/grey}"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/_11ssp"
+                        android:text="@{model.day}"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/_15ssp"
+                        android:layout_weight="1"
+                        android:textColor="@{safeUnbox(model.setSelected)?@color/white:@color/grey}"
+                        android:text="@{model.dayNum}"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textColor="@{safeUnbox(model.setSelected)?@color/white:@color/grey}"
+                        android:text="@{model.date}"
+                        android:textSize="@dimen/_11ssp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_weight=".05"
+                android:background="@color/grey"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>
