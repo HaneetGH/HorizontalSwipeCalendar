@@ -1,4 +1,4 @@
-# HorizontalSwipeCalendar
+# HorizontalSwipeCalendar ![GitHub Actions status | HaneetGH/HorizontalSwipeCalendar](https://github.com/HaneetGH/HorizontalSwipeCalendar/workflows/Android%20CI/badge.svg)
 NOTE:- This isn't a Library
 Horizontal Swipe Calendar
 
