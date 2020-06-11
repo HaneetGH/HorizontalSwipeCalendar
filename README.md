@@ -409,7 +409,7 @@ Download Code and include files from com.haneet.horizontalswipecalendar
 ```
 ```Java
 
-	  int CAL_TILL=1;// This number will add in year which tells system to fetch cal till that date
+	  int CAL_TILL=1;// 
 
 //Here we have Three Methods
 dateFillModel();
@@ -424,7 +424,7 @@ Optimize.
 Good Readme
 Simple Code
 work as libs 
-###PS if you have any idea, image, template please open new issue and give me the image , and i well try to add it to the Library.
+###PS if you have any idea, image, template please open new issue and give me the image , and i will try to add it to the Project.
 ## Permission
 git update-index --chmod=+x gradlew
 ## License
